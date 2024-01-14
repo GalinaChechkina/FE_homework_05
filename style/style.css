@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.post1{
+    border: 2px solid black;
+    margin: 100px;
+    margin-bottom: 20px;
+    padding: 50px;
+    padding-right: 800px;
+    position: relative; 
+}
+.post2{
+    border: 2px solid black;
+    margin: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    padding-right: 800px;
+    position: relative; 
+}
+.post3{
+    border: 2px solid black;
+    margin: 100px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding: 50px;
+    padding-right: 800px;
+    position: relative; 
+}
+.post1 button, .post2 button, .post3 button{
+    font-size:20px;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    transform: translate(-50%, 50%);
+}
+.post1 .marker, .post2 .marker, .post3 .marker{
+    border: 1px solid black;
+    padding: 10px 150px 10px 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-10px, -50%);
+    background-color: white;
+}
+nav{
+    padding: 0;
+    position: sticky;
+    width: 2,5%;
+    position: absolute;
+    bottom: -150px; 
+    right: 100px; 
+    z-index: 10;
+}
+nav a{
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+}
